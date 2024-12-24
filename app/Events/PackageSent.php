@@ -18,8 +18,9 @@ class PackageSent implements ShouldBroadcast
      * Create a new event instance.
      */
     public function __construct(
-        public string $status,
-        public string $deliveryHandler
+        public string $deliveryPersonnel,
+        public string $deliveryStatus,
+        public string $deliveryTime
     ) {
         //
     }
